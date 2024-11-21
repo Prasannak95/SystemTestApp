@@ -30,7 +30,7 @@
     background-color: #e60000;
   }
   
-  /* Responsive Design */
+ 
   @media (max-width: 768px) {
     .top-bar {
       flex-direction: column;

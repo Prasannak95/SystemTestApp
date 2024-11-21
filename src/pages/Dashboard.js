@@ -147,11 +147,11 @@ const Dashboard = ({ onLogout }) => {
     <div className="dashboard-container">
       <TopBar onLogout={onLogout} />
       <div className="dashboard-layout">
-        {/* <Sidebar links={navigationLinks} /> */}
+        
         <div className="dashboard-content">
           <h2>Performance Metrics</h2>
 
-          {/* Metrics Dropdown */}
+          
           <div className="metrics-dropdown">
             <h3>Select Metrics</h3>
             <Select
@@ -163,7 +163,7 @@ const Dashboard = ({ onLogout }) => {
             />
           </div>
 
-          {/* Performance Line Chart */}
+      
           <div className="line-chart-container">
             <h3>Performance Line Chart</h3>
             {selectedMetrics.length > 0 ? (
@@ -173,7 +173,7 @@ const Dashboard = ({ onLogout }) => {
             )}
           </div>
 
-          {/* Heat Map Table */}
+       
           <div className="heatmap-container">
             <h3>Heat Map Table</h3>
             {renderHeatmapTable()}

@@ -9,7 +9,7 @@ const Login = ({ onLogin }) => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Basic validation
+    
     if (!email || !password) {
       setError("Both fields are required");
       return;
